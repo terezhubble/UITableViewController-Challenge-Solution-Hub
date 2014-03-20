@@ -14,13 +14,13 @@
 		80A441F718DBAB0300CB9081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A441F618DBAB0300CB9081 /* main.m */; };
 		80A441FB18DBAB0300CB9081 /* THBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A441FA18DBAB0300CB9081 /* THBAppDelegate.m */; };
 		80A441FE18DBAB0300CB9081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A441FC18DBAB0300CB9081 /* Main.storyboard */; };
-		80A4420118DBAB0300CB9081 /* THBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4420018DBAB0300CB9081 /* THBViewController.m */; };
 		80A4420318DBAB0300CB9081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A4420218DBAB0300CB9081 /* Images.xcassets */; };
 		80A4420A18DBAB0300CB9081 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A4420918DBAB0300CB9081 /* XCTest.framework */; };
 		80A4420B18DBAB0300CB9081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A441EA18DBAB0300CB9081 /* Foundation.framework */; };
 		80A4420C18DBAB0300CB9081 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A441EE18DBAB0300CB9081 /* UIKit.framework */; };
 		80A4421418DBAB0300CB9081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80A4421218DBAB0300CB9081 /* InfoPlist.strings */; };
 		80A4421618DBAB0300CB9081 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4421518DBAB0300CB9081 /* UITableViewController_Challenge_SolutionTests.m */; };
+		80A4422118DBAE1600CB9081 /* THBUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A4422018DBAE1600CB9081 /* THBUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		80A441F918DBAB0300CB9081 /* THBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THBAppDelegate.h; sourceTree = "<group>"; };
 		80A441FA18DBAB0300CB9081 /* THBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THBAppDelegate.m; sourceTree = "<group>"; };
 		80A441FD18DBAB0300CB9081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80A441FF18DBAB0300CB9081 /* THBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THBViewController.h; sourceTree = "<group>"; };
-		80A4420018DBAB0300CB9081 /* THBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THBViewController.m; sourceTree = "<group>"; };
 		80A4420218DBAB0300CB9081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		80A4420818DBAB0300CB9081 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A4420918DBAB0300CB9081 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		80A4421118DBAB0300CB9081 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		80A4421318DBAB0300CB9081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80A4421518DBAB0300CB9081 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		80A4421F18DBAE1600CB9081 /* THBUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBUITableViewController.h; sourceTree = "<group>"; };
+		80A4422018DBAE1600CB9081 /* THBUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				80A441F918DBAB0300CB9081 /* THBAppDelegate.h */,
 				80A441FA18DBAB0300CB9081 /* THBAppDelegate.m */,
 				80A441FC18DBAB0300CB9081 /* Main.storyboard */,
-				80A441FF18DBAB0300CB9081 /* THBViewController.h */,
-				80A4420018DBAB0300CB9081 /* THBViewController.m */,
+				80A4421F18DBAE1600CB9081 /* THBUITableViewController.h */,
+				80A4422018DBAE1600CB9081 /* THBUITableViewController.m */,
 				80A4420218DBAB0300CB9081 /* Images.xcassets */,
 				80A441F118DBAB0300CB9081 /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A4420118DBAB0300CB9081 /* THBViewController.m in Sources */,
+				80A4422118DBAE1600CB9081 /* THBUITableViewController.m in Sources */,
 				80A441F718DBAB0300CB9081 /* main.m in Sources */,
 				80A441FB18DBAB0300CB9081 /* THBAppDelegate.m in Sources */,
 			);
